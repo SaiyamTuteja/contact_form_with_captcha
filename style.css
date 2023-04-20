@@ -1,0 +1,178 @@
+body {
+  background-color: #d1f3e7;
+}
+
+#title-Tag-Line {
+  font-size: 20px;
+}
+
+/* form animation starts */
+.form {
+  background: #1999ea;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+  animation: bounce 1.5s infinite; 
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+  color: white;
+}
+
+.termsConditions {
+  margin: 0 auto 5px 80px;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.secondaryTitle {
+  color: rgb(255, 255, 255);
+}
+
+.name {
+  background-color: #ebebeb;
+ 
+}
+
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 5rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 12em;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.text {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.text:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
+}
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #2188c8;
+  border-radius: 0%;
+}
+
+/* bouncing effect*/
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+
+  50% {
+    transform: translate(0, 8px);
+  }
+}
+/* this is for captcha code */
+#image {
+
+  height: 30px;
+  width: 380px;
+  margin-top: 10px;
+  background-color: #ebebeb;
+  height: 2em;
+  width: 100px;
+  padding: 20px;
+  font-weight: 400;
+  padding-bottom: 0px;
+  height: 40px;
+  user-select: none;
+  text-decoration: line-through;
+  font-style: italic;
+  font-size: x-large;
+  border: #0e3721 2px solid;
+  margin-left: 10px;
+
+}
+
+#user-input {
+
+  width: auto;
+  margin-right: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  height: 40px;
+  border: #0e3721 0px solid;
+}
+
+.inline {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 130px;
+}
+
+p {
+  margin-left: 130px;
+
+}

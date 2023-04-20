@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Contact form </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body onload="generate()">
+    <div class="wrapper">
+        <form class="form">
+            <div class="pageTitle title">Contact form </div>
+            <div class="secondaryTitle title">Please fill this form .</div>
+            <input type="text" class="name formEntry" placeholder="Name" />
+            <input type="text" class="email formEntry" placeholder="Email" />
+            <textarea class="message formEntry" placeholder="Message"></textarea>
+
+            <div class="inline" onclick="generate()">
+                <i class="fas fa-sync"></i>
+            </div>
+
+            <div id="image" class="inline" selectable="False">
+            </div>
+            <p id="key"></p>
+            <input type="text" class="text formEntry" id="submit" placeholder="Captcha code">
+
+            <input type="checkbox" class="termsConditions" value="Term">
+
+            <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> &
+                <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+            <button class="submit formEntry" onclick="printmsg()" />Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
